@@ -1,0 +1,84 @@
+.jumbotron {
+    background-color: rgb(106, 184, 184);
+    color: rgb(255, 255, 255);
+    padding: 100px 25px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.container-fluid {
+    padding: 40px 50px;
+}
+.bg-grey {
+    background-color:rgb(167, 228, 204)
+}
+.panel:hover {
+    box-shadow:3px 7px 30px #72bbaf
+}
+@media screen and (min-width:320px) {
+    img {
+        max-width:100%;
+    }
+}
+@media screen and (min-width:768px) {
+    img {
+        max-width:150px;
+    }
+}   
+@media screen and (min-width:980px) {
+    img {
+        max-width:225px;
+    }
+}
+@media screen and (min-width:1200px) {
+    img {
+        max-width:300%;
+    }
+}
+.icono {
+    color:rgb(28, 158, 28);
+    font-size: 25px;
+}
+.menu {
+    background-color: #1d756e;
+    padding: 5px 0px 14px;
+    border: 0;
+    font-size: 12px;
+    line-height: 1.42;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+}
+.menu .navbar-nav li a, .menu .navbar-brand {
+    color: #fff;
+}
+.menu .navbar-nav li a:hover, .menu .navbar-nav li.active a {
+    color: #f4511e;
+    background-color: #fff;
+}
+.menu .navbar-default .menu .navbar-toggle {
+    border-color: transparent;
+    color: #fff;
+}
+footer .glyphicon {
+	font-size: 30px;
+	margin-bottom: 10px;
+	color: #DAA520;
+}
+body {
+    font: 15px Lato, sans-serif;
+    line-height: 2.8;
+    color: #818181;
+}
+h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    color: #303030;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
